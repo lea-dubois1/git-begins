@@ -1,0 +1,7 @@
+
+Pour clonner un repo : git clone [lien du repo]
+
+Les 3 commandes de push :
+- git add [chemin du dossier à push]
+- git commit -m "[message]" (-m est une option et n'est donc pas obligatoire)
+- git push [lien du repo] [nom de la branche]

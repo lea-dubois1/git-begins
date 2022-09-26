@@ -16,3 +16,7 @@ Pour résoudre un conflit :
 2 . Si on n'avait pas fait de commit : git reset --hard [num d'identification du fichier]
     Si on avait fait un commit : git revert [num d'identification du fichier]
 3 . Enregistrer avec git add, commit et push.
+
+Pour restaurer un fichier supprimé : 
+- Si on a pas fait de commit : git checkout HEAD [nom du fichier à restaurer]
+- Si on a fait un commit : git reset --hard HEAD~1

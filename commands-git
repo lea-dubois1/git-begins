@@ -10,9 +10,3 @@ Pour pull : git pull [lien du repo]
 
 Pour ajouter une branche : git branch [nom de la branche à ajouter]
 Pour switcher de branche : git checkout [nom de la branche où on veut aller]
-
-Pour résoudre un conflit : 
-1 . Voir les numéros d'enregistrements des versions précédentes : git log [nom du fichier qu'on veut changer]
-2 . Si on n'avait pas fait de commit : git reset --hard [num d'identification du fichier]
-    Si on avait fait un commit : git revert [num d'identification du fichier]
-3 . Enregistrer avec git add, commit et push.

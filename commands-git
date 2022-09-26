@@ -7,3 +7,6 @@ Les 3 commandes de push :
 - git push [lien du repo] [nom de la branche]
 
 Pour pull : git pull [lien du repo]
+
+Pour ajouter une branche : git branch [nom de la branche à ajouter]
+Pour switcher de branche : git checkout [nom de la branche où on veut aller]
